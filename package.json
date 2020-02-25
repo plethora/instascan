@@ -4,6 +4,7 @@
   "description": "Webcam-driven QR code scanner.",
   "main": "dist/instascan.js",
   "scripts": {
+    "prepare": "npm run umd",
     "build": "gulp build",
     "release": "gulp release",
     "umd": "gulp umd"
